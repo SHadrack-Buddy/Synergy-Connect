@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { MessageSquare, Users, FileText, Calendar, ArrowUpRight, Plus } from "lucide-react";
 import logoUrl from "@assets/generated_images/Flash_Connect_logo_design_7fb07f3f.png";
-import teamPhotoUrl from "@assets/generated_images/Team_collaboration_workspace_photo_0db93d28.png";
+import harmonographUrl from "@assets/generated_images/Harmonograph_animation_wallpaper_9c58921b.png";
 
 // TODO: Replace with real data from API
 const recentActivity = [
@@ -54,8 +54,8 @@ export function Dashboard() {
         
         <div className="relative rounded-xl overflow-hidden mb-6">
           <img 
-            src={teamPhotoUrl} 
-            alt="Team collaboration workspace" 
+            src={harmonographUrl} 
+            alt="Beautiful Harmonograph mathematical art patterns" 
             className="w-full h-48 object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-black/60 to-black/20" />
